@@ -1,0 +1,349 @@
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  overflow-x: hidden;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+#top {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  font-size: 0;
+  background: white;
+  z-index: 1;
+}
+
+#top li {
+
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 60px;
+}
+
+#top img {
+  height: 100%;
+}
+
+#top .abb input {
+  border-radius: 50px 0 0 50px;
+  width: 25vw;
+
+}
+
+#top .acc label {
+  position: absolute;
+  display: block;
+  border: 1px solid black;
+  background-color: rgb(228, 228, 228);
+  top: 18px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 0 50px 50px 0;
+}
+
+#top .acc label:hover {
+  background: rgb(194, 193, 193);
+  cursor: pointer;
+}
+
+
+.add input {
+  display: none;
+}
+
+.add label {
+
+  display: block;
+  border: 1px solid rgba(172, 170, 170, 0.856);
+  color: rgb(1, 199, 206);
+  width: 90px;
+  top: 12px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.add label:hover {
+  background: rgb(151, 240, 240);
+  cursor: pointer;
+}
+
+
+#top .acc input {
+  display: none;
+}
+
+#top li:nth-child(1) {
+  margin-left: 15px;
+}
+
+#top li:nth-child(2) {
+  margin-left: 10px;
+}
+
+
+#top li:nth-child(3) {
+  margin-left: 24vw;
+}
+
+#top li:nth-child(4) i {
+  padding: 0 15px;
+}
+
+#top li:nth-child(5) {
+  margin-left: 65px;
+}
+
+#top li:nth-child(7) {
+
+  margin-left: 45px;
+}
+
+
+
+
+#top li:nth-child(1) i {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+
+#top li:nth-child(1) i:hover {
+  background: rgb(228, 227, 227);
+}
+
+#top li:nth-child(5) i {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+
+#top li:nth-child(5) i:hover {
+  background: rgb(228, 227, 227);
+}
+
+
+
+#top li:nth-child(6) {
+  margin-left: 27vw;
+}
+
+
+
+
+
+
+
+
+#top2 {
+  position: fixed;
+  background: white;
+  width: calc(100vw - 224px);
+  height: 40px;
+  top: 60px;
+  left: 224px;
+  z-index: 1;
+}
+
+
+
+
+
+#top2 li {
+  float: left;
+  margin-left: 10px;
+}
+
+#top2 .button {
+  display: block;
+  height: 1.5rem;
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 0 10px;
+  line-height: 30px;
+  margin-top: 4.5px;
+  color: black;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+
+
+#top2 .button:hover {
+  background: darkgray;
+  cursor: pointer;
+}
+
+
+#top2 li:nth-child(1) {
+  margin-left: 35px;
+}
+
+#top2 input {
+  display: none;
+}
+
+#top2 input:checked+.button {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+#sidebox {
+  position: fixed;
+  top: 60px;
+  width: 224px;
+  height: 94vh;
+
+}
+
+
+.sidebox_in::-webkit-scrollbar {
+  width: 7px;
+}
+
+.sidebox_in::-webkit-scrollbar-button {
+  background: transparent;
+  border-radius: 4px;
+}
+
+.sidebox_in::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+.sidebox_in::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.sidebox_in:hover::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid slategrey;
+}
+
+.sidebox_in::-webkit-scrollbar-track {
+  box-shadow: transparent;
+}
+
+.sidebox_in {
+  overflow: auto;
+}
+
+#sidebox ul {
+  font-size: 16px;
+}
+
+#sidebox li {
+  width: 190px;
+  text-align: left;
+  margin: auto;
+
+}
+
+#sidebox a {
+  display: block;
+  line-height: 2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flow-root;
+  padding-left: 10px;
+  color: black;
+}
+
+#sidebox a:hover {
+
+  background-color: lightgray;
+}
+
+
+
+#sidebox li h2 a {
+  display: inline-block;
+  padding: 1px 5px;
+}
+
+
+
+
+#main {
+  width: calc(100vw - 224px);
+  height: calc(100vh - 100px);
+  position: absolute;
+  left: 224px;
+  top: 100px;
+
+}
+
+.main_x {
+  width: 87%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.main_y div {
+  width: 25%;
+  height: 350px;
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+
+.main_y div img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+
+
+.main_y h1 {
+  font-size: 18px;
+
+}
+
+.main_y p {
+  padding-top: 8px;
+  font-size: 16px;
+}
+
+.short div h1 {
+  font-weight: bolder;
+  overflow: hidden;
+  height: 46px;
+}
+
+.short p {
+  margin-top: 20px;
+}
+
+
+.short div {
+  margin-top: 30px;
+  width: 12.5%;
+  float: left;
+  margin-bottom: 10px;
+}
